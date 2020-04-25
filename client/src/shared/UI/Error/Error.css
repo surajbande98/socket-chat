@@ -1,0 +1,57 @@
+.alert {
+  font-size: 1rem;
+  padding: 10px 0;
+  margin-bottom: 1.25em;
+  font-family: cpLight;
+}
+.alert ul li:first-child > i.message-icon:before {
+  content: "\f06a";
+}
+.alert ul li:first-child > i.check-circle:before {
+  content: "\f058";
+}
+.alert ul > li.alert-message {
+  display: table-row;
+}
+.alert ul > li.alert-message .message-icon {
+  padding-left: 1em;
+  padding-right: 0.5em;
+}
+.alert ul > li.alert-message .message-text {
+  display: table-cell;
+}
+.alert ul > li.alert-message .import-text a {
+  text-decoration: underline;
+  color: inherit;
+}
+.alert .close {
+  position: absolute;
+  top: 4px;
+  right: 9px;
+  opacity: 0.2;
+  text-shadow: 0 1px 0 #fff;
+  padding: 0;
+  font-size: 1.1875rem;
+  color: #000;
+  line-height: 1;
+}
+.alert .close:hover,
+.alert .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.alert-danger {
+  background-color: #fef9f9;
+  border-color: #ecd1d1;
+  color: indianred;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.fa {
+  margin-right: 5px;
+}

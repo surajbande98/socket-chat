@@ -1,0 +1,245 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after, .clearfix:before {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 20px 20px;
+  background: #f7f7f7;
+  border: 1px solid #d7d7d7;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.formControl {
+  border: 1px solid #d7d7d7;
+  height: 30px;
+  padding: 6px 12px;
+}
+
+.btn {
+  border: none;
+  height: 30px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* .btnSuccess {
+  background: green;
+  color: #ffffff;
+}
+
+.btnDanger {
+  background: red;
+  color: #ffffff;
+} */
+
+.writePostWrapper label {
+  padding-right: 10px;
+}
+
+.userPostWrapper ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.userInfoList .userImg {
+  width: 50px;
+  float: left;
+}
+
+.userInfoList .userInfo {
+  width: calc(100% - 50px);
+  float: left;
+}
+
+.userInfoList .userName {
+  padding: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.userInfo img {
+  float: right;
+  margin-top: 10px;
+}
+
+.userPostInfo {
+  margin: 4px 0;
+}
+
+.userPostInfo p {
+  margin: 0;
+}
+
+.userPostInfo p + p {
+  margin-top: 5px;
+}
+
+.userPostWrapper ul > .userInfoList {
+  margin: 15px 0;
+}
+
+.userInfoList .userEmail {
+  font-size: 13px;
+  color: #999999;
+}
+
+.postComment {
+  margin: 10px 0;
+  padding-left: 50px;
+}
+
+.postComment .userImg {
+  width: 20px;
+}
+
+.postComment .userInfo {
+  width: calc(100% - 20px);
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 6px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.g-movie {
+  margin: 47px 0 0 0;
+}
+
+.g-poster {
+  height: 300px;
+  width: 260px;
+}
+
+.movie-details {
+  padding: 4px 4px 11px 0;
+  text-align: center;
+  font-size: 10px;
+  color: red;
+}
+
+.searchBar {
+    margin: 8px 0 0 0px;
+    height: 35px;
+}
+
+.m-poster {
+  width: 220px;
+  height: 300px;
+}
+
+.dashboardContainer {
+  padding: 0 10px 0 10px;
+}
+
+.userName {
+  padding: 0 0 10px 0;
+}
+
+.login-submit {
+  margin: 51px 0 0 101px;
+}
+
+.user-name-input-box{
+  margin: 0 0 0 36px;
+}
+
+.user-pwd-input-box {
+  margin: 0 0 0 20px;
+}
+
+.no-data-avail {
+  margin: 173px 0px 0px 309px;
+}
+
+.danger-text {
+  color: red;
+}
+/**/
+.loginPage {
+  margin: 0 auto;
+}
+.svgHolder {
+  margin: 0 auto 30px;
+}
+.svgHolder svg {
+  width: 50px;
+  height: 50px;
+  fill: #00dd84;
+}
+.loginPage {
+  text-align: center;
+  margin-top: 50px;
+}
+.inputHolder {
+  border-width: 0 0 2px 0;
+  width: 50%;
+  height: 50px;
+  border-color: #333;
+  font-size: 16px;
+}
+.inputHolder:focus {
+  outline: none;
+}
+.buttonWrap {
+  margin-top: 30px;
+}
+.buttonWrap input,
+.buttonWrap button {
+  min-width: 100px;
+  /* padding: 8px 0px; */
+  background-color: #00dd84;
+  border: 0;
+  border-radius: 0px;
+  margin: 0 23px;
+  box-shadow: 2px 2px 6px #ececec;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/**/
+
+button:disabled {
+  cursor: not-allowed;
+    background: #e6e6e6;
+    color: #333;
+}
+
+input:focus {
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.pl-3 {
+  padding-left: 3px;
+}
